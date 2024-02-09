@@ -1,0 +1,94 @@
+body{
+    background-color: rgb(31, 30, 30);
+    color: whitesmoke;
+    font-family: poppinsregular; 
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 15px;
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#title{
+    flex-direction: column;
+    line-height: 50px;
+}
+
+li{
+    display: inline-block;
+    margin: 30px;
+
+}
+
+
+a{
+    color: whitesmoke;
+}
+
+a:hover{
+    color: #00DAFF;
+    transition: 0.3s all;
+
+}
+
+h1{ font-size: 65px;
+    font-weight: 50;
+}
+
+h2{ 
+    font-size: 40px;
+    line-height: 20px;
+    font-family: poppinsmedium;
+
+}
+
+main{
+    display: flex;
+    flex-direction: row;
+    margin-top: 100px;
+
+}
+
+span{
+
+    color: #00DAFF ;
+
+}
+
+
+
+p{
+    line-height: 20px;
+    max-width: 500px;
+    font-family: poppinslight;
+}
+
+form{
+
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+}
+form [type ="submit" ]{
+    height: 50px;
+    width: 50%;
+    background-color: #00DAFF;
+    color: whitesmoke;
+    font-weight: bold;
+}
+
+input{
+
+    margin-top: 10px;
+    height: 20px;
+    padding: 20px;
+    border-radius: 20px;
+    border: none;
+    font-size: 15px;
+}
+
